@@ -72,3 +72,25 @@ margin-top:5.5px ;
 .nav-account img{
     font-size: 30px;
 }
+#body{
+    /* width: 100%; */
+    height: 1000px;
+    display: flex;
+}
+#body .body-find{
+    justify-content: left;
+    width: 250px;
+    padding: 50px;
+    background-color: aqua;
+    
+}
+.body-find img{
+    font-size: 30px;
+    width: 50px;
+}
+
+.body-main{
+    justify-content: right;
+    font-size: 20px;
+
+}
