@@ -234,7 +234,6 @@ margin-top:5.5px ;
     } */
 .button {
     background-color: #fff;
-    border: none;
     color: blue;
     padding:  7px 10px;
     text-align: center;
@@ -249,7 +248,8 @@ margin-top:5.5px ;
     font-size: 12px;
     padding: 5px;
     padding-top: 10px;
-    color: rgb(175, 174, 174);
+    padding-left: 10px;
+    color: rgb(115, 114, 114);
     /* font-weight: normal; */
 
 }
@@ -291,7 +291,10 @@ margin-top:5.5px ;
     grid-template-columns: 1fr 1fr;
 }
 .product{
-    height: 300px;
+    height: 270px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-bottom: 30px;
 }
 .product-left{
     margin-right: 15px;
@@ -300,18 +303,152 @@ margin-top:5.5px ;
 }
 .product-right{
     margin-left: 15px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .head-app{
     background-color: rgb(206, 220, 223);
     display: grid;
     grid-template-columns: 2fr 0.9fr;
     padding: 20px;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .head-app .logo{
     right: 0;
 }
 .head-app .logo img{
     width: 65px;
-}--
+}
+.propose{
+    padding: 15px;
+}
+.propose a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.propose h6{
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+}
+.detailAll{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.detailAll .detail {
+    color: black;
+    font-size: 13px;
+    display: flex;
+    padding: 5px 0;
+}
+.detailAll .detail-right{
+    justify-content: right;
+
+}
+.detailAll .detail-left{
+    justify-content: left;
+}
+.detailAll .detail h6{
+    color: rgb(135, 135, 135);
+    font-size: 13px;
+    /* padding-right: 10px; */
+    font-weight: normal;
+}
+.training{
+    margin-left: 30px;  
+
+}
+.training-tittle{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.training-tittle .showall a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+.training-main{
+    background-color: #fdff7c;
+    width: 100%;
+    height: 270px;
+    /* margin: 0 30px;   */
+    border-radius: 15px;
+
+
+}
+.training-main .tittle{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.training-main .tittle li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.training-main .img{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-75px);
+    right: 0;
+    bottom: 0;
+}
+.training-main .img img{
+    width: 300px;
+}
+.appdesign{
+    margin-left: 30px;
+}
+.app .logo img{
+    width: 65px;
+}
+.show-app .app{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1.2fr;
+    padding-top: 30px;
+}
+.error-tittle{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 40px 0;
+}
+.error-tittle .showall a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+.error-how{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin:0 -15px; 
+
+}
+.err{
+    padding: 15px;
+}
+.err img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+.err-propose{
+    margin: 0 -15px;
+    padding-top: 15px;
+}
+.newgame-tittle{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.newgame-tittle .showall a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+.newgame-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
