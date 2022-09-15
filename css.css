@@ -67,6 +67,7 @@ margin-top:5.5px ;
     font-size: 20px;
     text-decoration: none;
     padding: 0 15px;
+    color: black;
 
 }
 .nav-account img{
@@ -110,6 +111,9 @@ margin-top:5.5px ;
 .function li{
     padding: 10px;
     color: rgb(47, 47, 47);
+}
+.function li a{
+    color: black;
 }
 .function .mode-game{
     display: flex;
@@ -488,7 +492,13 @@ margin-top:5.5px ;
 .box-button{
     position: absolute;
     right: 0;
-}.button1{
+}
+.box-button1{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+.button1{
     color: rgb(135, 135, 135);
     border: none;
     border-radius: 10px;
@@ -505,22 +515,71 @@ margin-top:5.5px ;
 .newgame-more-game{
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-right: -30px;
     transform: translateX(15px);
     border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr ; 
+    display: block;
+    height: 436.2px;
     /* padding-bottom: -50px; */
 }
 .newgame-more-more{
     display: grid;
-    grid-template-columns: 3fr 5fr 1fr;
+    position: relative;
+
+    grid-template-columns: 2fr 4fr 1fr;
+    padding-right: 15px;
+    height: 145.4px;
+}
+.newgame-more-more .box-button{
+    transform: translateY(60px);
 }
 .newgame-more-more img{
-    height: 139.57px;
-    width: 139.57px;
+    height: 130.4px;
+    width: 160px;
+    border-radius: 10px;
+
 }
 .button-name{
     display: inline-block;
+    padding-left: 10px;
+}
+.newgame-more-more .more{
+    padding: 10px;
+}
+.button-name a{
+    text-decoration: none;
+}
+.button-more{
+    padding: 15px;
+}
+.newgame-more-more1{
+    padding-bottom: 5px;
+}
+.newgame-more-more2{
+    padding: 2.5px 0;
+}
+.newgame-more-more3{
+    padding-top:5px ;
+}
+.err h6{
+    display: inline;
+}
+.nav-chose li a:hover{
+    color: blue;
+}
+.function li a:hover{
+    color: blue;
+
+}
+.ti-game:hover{
+    color: blue;
+
+}
+.not-style{
+    color: black;
+}
+.not-style:hover{
+    color: blue;
+
 }
