@@ -405,7 +405,7 @@ margin-top:5.5px ;
 .app .logo img{
     width: 65px;
 }
-.show-app .app{
+ .app{
     display: grid;
     grid-template-columns: 1fr 6fr 1.2fr;
     padding-top: 30px;
@@ -451,4 +451,76 @@ margin-top:5.5px ;
 .newgame-row{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* height: 600px; */
+    height: 447.45px;
+    padding: 0 15px;
+}
+.newgame-banner{
+    width: 100%;
+    margin-left: -15px;
+    
+    
+}
+.newgame-banner li a{
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+
+}
+.newgame-banner .tittle{
+    /* transform: translateY(-260px); */
+    margin-top: -260px;
+    padding: 20px;
+}
+.newgame-banner img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+
+}
+.down-more{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.box-button{
+    position: absolute;
+    right: 0;
+}.button1{
+    color: rgb(135, 135, 135);
+    border: none;
+    border-radius: 10px;
+}
+.button2{
+    padding: 7px 25px;
+}
+.more1{
+    padding-left: 16px;
+}
+.newgame-more{
+    height: 436.2px;
+}
+.newgame-more-game{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    margin-right: -30px;
+    transform: translateX(15px);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr ; 
+    /* padding-bottom: -50px; */
+}
+.newgame-more-more{
+    display: grid;
+    grid-template-columns: 3fr 5fr 1fr;
+}
+.newgame-more-more img{
+    height: 139.57px;
+    width: 139.57px;
+}
+.button-name{
+    display: inline-block;
 }
